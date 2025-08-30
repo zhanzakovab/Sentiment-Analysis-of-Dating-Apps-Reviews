@@ -1,0 +1,16 @@
+# Core
+numpy
+pandas
+
+# Viz
+matplotlib
+seaborn
+
+# NLP
+nltk
+contractions
+emoji
+
+# Utils
+tqdm
+ipython
