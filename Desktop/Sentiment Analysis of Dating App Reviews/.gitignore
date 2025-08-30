@@ -1,0 +1,43 @@
+cat > .gitignore <<'IGN'
+# OS / IDE
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Envs
+.conda/
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Secrets
+.env
+*.env
+.env.*
+
+# Data (keep big stuff out)
+data/
+dataset*/
+datasets*/
+raw*/
+processed*/
+models/
+outputs/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.zip
+*.gz
+*.bz2
+*.pt
+*.pth
+*.h5
+*.joblib
+IGN
