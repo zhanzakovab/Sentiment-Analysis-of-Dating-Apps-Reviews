@@ -1,20 +1,20 @@
-# 📊 Sentiment Analysis of Dating App Reviews  
+# Sentiment Analysis of Dating App Reviews  
 
-## 📌 Project Overview  
+## Project Overview  
 Built a large-scale NLP pipeline to classify sentiment from **600,000+ dating app reviews**, combining **lexical scoring, semantic embeddings, and machine learning models**.  
 
 The project benchmarked classical ML algorithms against a feed-forward neural network and investigated how different preprocessing and feature engineering strategies affect model performance and generalisation.  
 
 ---
 
-## 🎯 Motivation  
+## Motivation  
 - User reviews directly shape app reputation, retention, and revenue.  
 - Dating app reviews are **noisy**: they contain sarcasm, slang, emojis, and informal grammar — making sentiment classification especially challenging.  
 - This project demonstrates how to engineer features, compare models, and identify trade-offs when applying NLP to messy, real-world data.  
 
 ---
 
-## 🗂️ Dataset  
+## Dataset  
 - **Source**: [Kaggle – Dating App Reviews](https://www.kaggle.com/datasets/sidharthkriplani/datingappreviews/data)  
 - **Initial size**: ~600,000 reviews with both text and star ratings.  
 - **Balanced subset**: 25,000 positive + 25,000 negative reviews (to avoid class imbalance and reduce runtime).  
@@ -22,7 +22,7 @@ The project benchmarked classical ML algorithms against a feed-forward neural ne
 
 ---
 
-## ⚙️ Preprocessing & Feature Engineering  
+## Preprocessing & Feature Engineering  
 - **Text cleaning**: contraction expansion, lowercasing, punctuation/digit removal.  
 - **Negation-aware stopwords**: kept “not”, “no”, “nor” to preserve sentiment signals.  
 - **Emoji handling**: converted emojis to text descriptors.  
@@ -33,7 +33,7 @@ The project benchmarked classical ML algorithms against a feed-forward neural ne
 
 ---
 
-## 🤖 Models Implemented  
+## Models Implemented  
 1. **Logistic Regression (LogReg)** – simple, efficient baseline.  
 2. **Support Vector Machine (SVM)** – robust for high-dimensional text data.  
 3. **Bernoulli Naive Bayes (NB)** – fast but limited for contextual sentiment.  
@@ -46,7 +46,7 @@ The project benchmarked classical ML algorithms against a feed-forward neural ne
 
 ---
 
-## 📊 Results  
+## Results  
 
 | Model                     | Accuracy | Key Insight |
 |----------------------------|----------|-------------|
@@ -63,14 +63,14 @@ The project benchmarked classical ML algorithms against a feed-forward neural ne
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 - **Python**: pandas, NumPy, scikit-learn, NLTK, gensim, TensorFlow/Keras  
 - **NLP Tools**: VADER Sentiment Analyzer, Word2Vec  
 - **Data Viz**: matplotlib, seaborn  
 
 ---
 
-## 🚀 How to Run  
+## How to Run  
 ```bash
 # Clone the repo
 git clone https://github.com/your-username/dating-app-sentiment.git
